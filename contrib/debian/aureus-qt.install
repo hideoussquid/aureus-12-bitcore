@@ -1,0 +1,6 @@
+usr/local/bin/aureus-qt usr/bin
+share/pixmaps/aureus32.xpm usr/share/pixmaps
+share/pixmaps/aureus16.xpm usr/share/pixmaps
+share/pixmaps/aureus128.png usr/share/pixmaps
+debian/aureus-qt.desktop usr/share/applications
+debian/aureus-qt.protocol usr/share/kde4/services/

@@ -1,0 +1,22 @@
+[Unit]
+Description=Aureus's distributed currency daemon
+After=network.target
+
+[Service]
+User=aureus
+Group=aureus
+
+Type=forking
+PIDFile=/var/lib/aureusd/aureusd.pid
+ExecStart=/usr/bin/aureusd -daemon -pid=/var/lib/aureusd/aureusd.pid \
+-conf=/etc/aureus/aureus.conf -datadir=/var/lib/aureusd -disablewallet
+
+Restart=always
+PrivateTmp=true
+TimeoutStopSec=60s
+TimeoutStartSec=2s
+StartLimitInterval=120s
+StartLimitBurst=5
+
+[Install]
+WantedBy=multi-user.target

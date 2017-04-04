@@ -1,0 +1,33 @@
+# /etc/conf.d/aureusd: config file for /etc/init.d/aureusd
+
+# Config file location
+#AUREUSD_CONFIGFILE="/etc/aureus/aureus.conf"
+
+# What directory to write pidfile to?  (created and owned by $AUREUSD_USER)
+#AUREUSD_PIDDIR="/var/run/aureusd"
+
+# What filename to give the pidfile
+#AUREUSD_PIDFILE="${AUREUSD_PIDDIR}/aureusd.pid"
+
+# Where to write aureusd data (be mindful that the blockchain is large)
+#AUREUSD_DATADIR="/var/lib/aureusd"
+
+# User and group to own aureusd process
+#AUREUSD_USER="aureus"
+#AUREUSD_GROUP="aureus"
+
+# Path to aureusd executable
+#AUREUSD_BIN="/usr/bin/aureusd"
+
+# Nice value to run aureusd under
+#AUREUSD_NICE=0
+
+# Additional options (avoid -conf and -datadir, use flags above)
+AUREUSD_OPTS="-disablewallet"
+
+# The timeout in seconds OpenRC will wait for aureusd to terminate
+# after a SIGTERM has been raised.
+# Note that this will be mapped as argument to start-stop-daemon's
+# '--retry' option, which means you can specify a retry schedule
+# here. For more information see man 8 start-stop-daemon.
+AUREUSD_SIGTERM_TIMEOUT=60

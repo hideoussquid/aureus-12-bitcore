@@ -1,0 +1,11 @@
+[Protocol]
+exec=aureus-qt '%u'
+protocol=aureus
+input=none
+output=none
+helper=true
+listing=
+reading=false
+writing=false
+makedir=false
+deleting=false

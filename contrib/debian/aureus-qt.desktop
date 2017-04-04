@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Aureus
+Comment=Aureus P2P Cryptocurrency
+Comment[fr]=Aureus, monnaie virtuelle cryptographique pair à pair
+Comment[tr]=Aureus, eşten eşe kriptografik sanal para birimi
+Exec=aureus-qt %u
+Terminal=false
+Type=Application
+Icon=aureus128
+MimeType=x-scheme-handler/aureus;
+Categories=Office;Finance;

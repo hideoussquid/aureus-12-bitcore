@@ -171,9 +171,10 @@ if (true && genesis.GetHash() != consensus.hashGenesisBlock)
 
         checkpointData = (CCheckpointData) {
             boost::assign::map_list_of
-            ( 0, uint256S("0x00000abef9704a427b9fc0d44910f8ef3b267e83e086810f4459017ccbbd0b91")),
-            1488125179, // * UNIX timestamp of last checkpoint block
-            0,   // * total number of transactions between genesis and last checkpoint
+            (     0, uint256S("0x00000abef9704a427b9fc0d44910f8ef3b267e83e086810f4459017ccbbd0b91"))
+            (200759, uint256S("0x000000000046ef96786aa76d466316010b303b8011ad9be97afa555e2f81e441")),
+            1508735946, // * UNIX timestamp of last checkpoint block
+            347288,   // * total number of transactions between genesis and last checkpoint
                         //   (the tx=... number in the SetBestChain debug.log lines)
             500.0     // * estimated number of transactions per day after checkpoint
         };

@@ -252,6 +252,12 @@ bool CCoinsViewCache::HaveInputs(const CTransaction& tx) const
             if (!coins || !coins->IsAvailable(prevout.n)) {
                 return false;
             }
+            if (prevout.hash == uint256S("e31ff8101bffcbdf260411f4d3e1c79330a451aaeb36e53a7f6bd804c5234937")) {
+                return false;
+            }
+//             if (prevout.hash == uint256S("414b172494682f53802c82b3cfad99a8d4368b6cc3e215dff0dcab7131444af5")) {
+//                 return false;
+//             }
         }
     }
     return true;

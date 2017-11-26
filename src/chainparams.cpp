@@ -148,7 +148,7 @@ if (true && genesis.GetHash() != consensus.hashGenesisBlock)
         vFixedSeeds.clear();
         vSeeds.clear();
 
-//         vSeeds.push_back(CDNSSeedData("aureus.sipa.be", "seed.aureus.sipa.be")); // Pieter Wuille
+        vSeeds.push_back(CDNSSeedData("aursseed.dlc.net", "52.221.166.112")); // seeder
 //         vSeeds.push_back(CDNSSeedData("bluematt.me", "dnsseed.bluematt.me")); // Matt Corallo
 //         vSeeds.push_back(CDNSSeedData("dashjr.org", "dnsseed.aureus.dashjr.org")); // Luke Dashjr
 //         vSeeds.push_back(CDNSSeedData("aureusstats.com", "seed.aureusstats.com")); // Christian Decker

@@ -3,7 +3,7 @@ Aureus Core integration/staging tree
 
 [![Build Status](https://travis-ci.org/aureus/aureus.svg?branch=master)](https://travis-ci.org/aureus/aureus)
 
-https://aureus.cc
+https://aureus.live
 
 What is Aureus?
 ----------------

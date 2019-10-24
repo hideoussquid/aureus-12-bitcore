@@ -14,6 +14,7 @@ with no central authority: managing transactions and issuing money are carried
 out collectively by the network. Aureus Core is the name of open source
 software which enables the use of this currency.
 
+This version is designed for use with copay's Insight system
 
 License
 -------
